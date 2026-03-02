@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://astropages-bilingual.pages.dev", // replace this with your deployed domain
+  website: "https://tcy6-astropages.pages.dev", // replace this with your deployed domain
   author: "tosaki",
   profile: "https://t0saki.com",
   desc: "A bilingual blog based on Astro Paper",
