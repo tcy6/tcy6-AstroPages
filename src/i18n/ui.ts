@@ -37,7 +37,7 @@ export const ui = {
     
     // Home page hero
     "hero.greeting": "你好",
-    "hero.description": "这是一个简洁、响应式、无障碍且对 SEO 友好的 Astro 博客主题。支持明暗模式切换，可自定义配色方案。",
+    "hero.description": "我是汤潮跃，北京邮电大学的一名大四学生，正在从事大模型相关的研究。",
     "hero.cta": "阅读博客文章或查看",
     "hero.socialLinks": "社交链接：",
     
@@ -107,7 +107,7 @@ export const ui = {
     
     // Home page hero
     "hero.greeting": "Hello",
-    "hero.description": "A minimal, responsive, accessible and SEO-friendly Astro blog theme. Light and dark mode supported with customizable color schemes.",
+    "hero.description": "I'm Chaoyue Tang, a senior undergraduate student at Beijing University of Posts and Telecommunications, working on Large Language Models (LLMs).",
     "hero.cta": "Read the blog posts or check",
     "hero.socialLinks": "Social Links:",
     
