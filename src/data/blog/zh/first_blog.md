@@ -1,6 +1,6 @@
 ---
 title: 第一次写博客，随便写点
-pubDatetime: 2026-03-02
+pubDatetime: 2026-03-02T16:59:00.000Z
 description: 第一次写的博客
 section: life
 draft: false

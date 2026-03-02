@@ -1,6 +1,6 @@
 ---
 title: AI 时代提问能力的重要性
-pubDatetime: 2026-03-03
+pubDatetime: 2026-03-03T01:20:00.000Z
 description: AI 时代提问能力的重要性
 section: research
 draft: false

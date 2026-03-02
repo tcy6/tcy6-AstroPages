@@ -1,6 +1,6 @@
 ---
 title: My First Blog Post
-pubDatetime: 2026-03-02
+pubDatetime: 2026-03-02T16:59:00.000Z
 description: My first blog post
 section: life
 draft: false
@@ -8,4 +8,3 @@ featured: false
 tags: []
 ---
 I just created a personal homepage today. I wasn't sure what to write, so I put a few random thoughts here as a small record.
-

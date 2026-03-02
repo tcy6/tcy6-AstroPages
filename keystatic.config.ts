@@ -20,7 +20,7 @@ export default config({
       format: { contentField: 'content' },
       schema: {
         title: fields.slug({ name: { label: '标题' } }),
-        pubDatetime: fields.date({ label: '发布时间' }),
+        pubDatetime: fields.datetime({ label: '发布时间' }),
         description: fields.text({ label: '摘要', multiline: true }),
         section: fields.select({
           label: '栏目',
@@ -52,7 +52,7 @@ export default config({
       format: { contentField: 'content' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
-        pubDatetime: fields.date({ label: 'Publish Date' }),
+        pubDatetime: fields.datetime({ label: 'Publish Date' }),
         description: fields.text({ label: 'Description', multiline: true }),
         section: fields.select({
           label: 'Section',
