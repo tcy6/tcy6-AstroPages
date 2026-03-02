@@ -65,7 +65,7 @@ export const ui = {
     "page.pageNum": "第 {num} 页",
     
     // Footer
-    "footer.copyright": "版权所有 © {year}",
+    "footer.copyright": "版权所有 © {year} Chaoyue Tang 汤潮跃",
     "footer.allRights": "保留所有权利",
     
     // 404 Page
@@ -135,7 +135,7 @@ export const ui = {
     "page.pageNum": "page {num}",
     
     // Footer
-    "footer.copyright": "Copyright © {year}",
+    "footer.copyright": "Copyright © {year} Chaoyue Tang 汤潮跃",
     "footer.allRights": "All rights reserved.",
     
     // 404 Page

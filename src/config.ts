@@ -3,7 +3,7 @@ export const SITE = {
   author: "Chaoyue Tang",
   profile: "https://tcy6-astropages.pages.dev",
   desc: "A bilingual blog based on Astro Paper",
-  title: "汤潮跃 Chaoyue Tang",
+  title: "Chaoyue Tang 汤潮跃",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
