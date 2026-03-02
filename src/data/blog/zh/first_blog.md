@@ -2,6 +2,7 @@
 title: 第一次写博客，随便写点
 pubDatetime: 2026-03-02
 description: 第一次写的博客
+section: life
 draft: false
 featured: false
 tags: []

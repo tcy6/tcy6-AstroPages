@@ -12,7 +12,8 @@ export const ui = {
     // Navigation
     "nav.posts": "文章",
     "nav.tags": "标签",
-    "nav.about": "关于",
+    "nav.life": "生活",
+    "nav.research": "研究",
     "nav.archives": "归档",
     "nav.search": "搜索",
     "nav.skipToContent": "跳转到内容",
@@ -61,7 +62,8 @@ export const ui = {
     "page.tagsDesc": "所有使用的标签",
     "page.tagPrefix": "标签：",
     "page.tagDesc": "包含「{tag}」标签的所有文章",
-    "page.about": "关于",
+    "page.life": "生活",
+    "page.research": "研究",
     "page.pageNum": "第 {num} 页",
     
     // Footer
@@ -82,7 +84,8 @@ export const ui = {
     // Navigation
     "nav.posts": "Posts",
     "nav.tags": "Tags",
-    "nav.about": "About",
+    "nav.life": "Life",
+    "nav.research": "Research",
     "nav.archives": "Archives",
     "nav.search": "Search",
     "nav.skipToContent": "Skip to content",
@@ -131,7 +134,8 @@ export const ui = {
     "page.tagsDesc": "All the tags used in posts.",
     "page.tagPrefix": "Tag:",
     "page.tagDesc": "All the articles with the tag \"{tag}\".",
-    "page.about": "About",
+    "page.life": "Life",
+    "page.research": "Research",
     "page.pageNum": "page {num}",
     
     // Footer

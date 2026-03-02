@@ -22,6 +22,14 @@ export default config({
         title: fields.slug({ name: { label: '标题' } }),
         pubDatetime: fields.date({ label: '发布时间' }),
         description: fields.text({ label: '摘要', multiline: true }),
+        section: fields.select({
+          label: '栏目',
+          options: [
+            { label: 'Life / 生活', value: 'life' },
+            { label: 'Research / 研究', value: 'research' },
+          ],
+          defaultValue: 'life',
+        }),
         draft: fields.checkbox({ label: '草稿', defaultValue: false }),
         featured: fields.checkbox({ label: '推荐文章', defaultValue: false }),
         tags: fields.array(
@@ -46,6 +54,14 @@ export default config({
         title: fields.slug({ name: { label: 'Title' } }),
         pubDatetime: fields.date({ label: 'Publish Date' }),
         description: fields.text({ label: 'Description', multiline: true }),
+        section: fields.select({
+          label: 'Section',
+          options: [
+            { label: 'Life', value: 'life' },
+            { label: 'Research', value: 'research' },
+          ],
+          defaultValue: 'life',
+        }),
         draft: fields.checkbox({ label: 'Draft', defaultValue: false }),
         featured: fields.checkbox({ label: 'Featured', defaultValue: false }),
         tags: fields.array(

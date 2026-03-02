@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Card from "@/components/Card.astro";
+import Layout from "@/layouts/Layout.astro";
+import { SITE } from "@/config";
+import { getLangFromUrl } from "@/i18n/ui";
+import getSortedPosts from "@/utils/getSortedPosts";
+
+export function getStaticPaths() {
+  return [{ params: { lang: "en" } }];
+}
+
+const lang = getLangFromUrl(Astro.url);
+const posts = getSortedPosts(
+  (await getCollection("blog")).filter(
+    ({ id, data }) => id.startsWith(`${lang}/`) && data.section === "life"
+  )
+);
+
+const content = {
+  zh: {
+    title: "生活",
+    intro: "这里收录与生活相关的文章。",
+    empty: "暂时还没有生活类文章，稍后再来看看。",
+  },
+  en: {
+    title: "Life",
+    intro: "This section collects posts related to life.",
+    empty: "No life posts yet. Please check back soon.",
+  },
+};
+
+const c = content[lang as keyof typeof content];
+---
+
+<Layout title={`${c.title} | ${SITE.title}`}>
+  <Header lang={lang} />
+  <Breadcrumb lang={lang} />
+  <main id="main-content" class="app-layout">
+    <section id="life" class="app-prose mb-28 max-w-app prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">{c.title}</h1>
+      <p>{c.intro}</p>
+      {posts.length > 0 ? <ul>{posts.map(post => <Card variant="h2" {...post} />)}</ul> : <p>{c.empty}</p>}
+    </section>
+  </main>
+  <Footer lang={lang} />
+</Layout>
+

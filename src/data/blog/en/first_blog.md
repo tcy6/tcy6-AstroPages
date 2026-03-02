@@ -2,6 +2,7 @@
 title: My First Blog Post
 pubDatetime: 2026-03-02
 description: My first blog post
+section: life
 draft: false
 featured: false
 tags: []
